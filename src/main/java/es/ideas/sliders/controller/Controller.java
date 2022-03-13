@@ -59,7 +59,19 @@ public class Controller implements Initializable {
     listaColores = FXCollections.observableArrayList();
     listView.setItems(listaColores);
 
-  
+    bEliminar.disableProperty().bind(
+            listView.getSelectionModel().selectedItemProperty()
+                    .isNull()
+    );
+    listView.getSelectionModel().selectedItemProperty().addListener(
+            (obs,oldValue,newValue) ->{
+             if (newValue!=null){
+                 sliderRojo.setValue(newValue.getRed());
+                 sliderVerde.setValue(newValue.getGreen());
+                 sliderAul.setValue(newValue.getBlue());
+             }
+            });
+            
         sliderVerde.valueProperty().addListener((obs, oldValue, newValue) -> {
 
             objeto.setFill(
