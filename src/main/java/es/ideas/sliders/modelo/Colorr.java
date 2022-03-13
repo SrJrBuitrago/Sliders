@@ -1,6 +1,6 @@
 package es.ideas.sliders.modelo;
 
-public class Color {
+public class Colorr {
     private int red;
     private int green;
     private int blue;
@@ -29,21 +29,21 @@ public class Color {
         this.blue = blue;
     }
 
-    public Color(int red, int green, int blue) {
+    public Colorr(int red, int green, int blue) {
         this.red = red;
         this.green = green;
         this.blue = blue;
     }
 
-    public Color() {
+    public Colorr() {
     }
 
     @Override
     public String toString() {
-        return "Color{" +
+        return
                 "red=" + red +
                 ", green=" + green +
-                ", blue=" + blue +
-                '}';
+                ", blue=" + blue
+                ;
     }
 }
