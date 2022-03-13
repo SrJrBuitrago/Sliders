@@ -44,9 +44,9 @@
                                 <Label fx:id="labelRojo" layoutX="14.0" layoutY="20.0" prefHeight="17.0" prefWidth="35.0" text="Red:" />
                                 <Label fx:id="labelVerde" layoutX="83.0" layoutY="20.0" prefHeight="17.0" prefWidth="35.0" text="Green:" />
                                 <Label fx:id="labelAzul" layoutX="165.0" layoutY="20.0" prefHeight="17.0" prefWidth="35.0" text="Blue:" />
-                        <TextField fx:id="tfRed" layoutX="40.0" layoutY="16.0" prefHeight="25.0" prefWidth="35.0" />
-                        <TextField fx:id="tfGreen" layoutX="118.0" layoutY="16.0" prefHeight="25.0" prefWidth="35.0" />
-                        <TextField fx:id="tfBlue" layoutX="191.0" layoutY="16.0" prefHeight="25.0" prefWidth="35.0" />
+                                <TextField fx:id="tfRed" layoutX="40.0" layoutY="16.0" prefHeight="25.0" prefWidth="35.0" />
+                                <TextField fx:id="tfGreen" layoutX="118.0" layoutY="16.0" prefHeight="25.0" prefWidth="35.0" />
+                                <TextField fx:id="tfBlue" layoutX="191.0" layoutY="16.0" prefHeight="25.0" prefWidth="35.0" />
                             </children>
                         </Pane>
                     </children>
@@ -65,3 +65,4 @@
             </children></AnchorPane>
     </items>
 </SplitPane>
+
