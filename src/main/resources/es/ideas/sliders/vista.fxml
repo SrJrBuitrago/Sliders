@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<<<<<<< HEAD
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
@@ -13,3 +14,70 @@
     <Label fx:id="welcomeText" />
     <Button onAction="#onHelloButtonClick" text="Hello!" />
 </VBox>
+=======
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Ellipse?>
+
+<SplitPane dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="442.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+    <items>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+            <children>
+                <Ellipse fx:id="objeto" fill="DODGERBLUE" layoutX="148.0" layoutY="220.0" radiusX="100.0" radiusY="80.0" stroke="BLACK" strokeType="INSIDE" />
+            </children></AnchorPane>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="435.0" prefWidth="294.0">
+            <children>
+                <Pane layoutX="42.0" layoutY="220.0" prefHeight="175.0" prefWidth="248.0">
+                    <children>
+                        <Pane prefHeight="40.0" prefWidth="200.0">
+                            <children>
+                                <Slider fx:id="sliderRojo" blockIncrement="5.0" layoutX="34.0" layoutY="12.0" max="255.0" showTickLabels="true" showTickMarks="true" />
+                                <Label layoutX="10.0" layoutY="11.0" text="R" />
+                            </children>
+                        </Pane>
+                        <Pane layoutY="40.0" prefHeight="40.0" prefWidth="200.0">
+                            <children>
+                                <Slider fx:id="sliderVerde" blockIncrement="5.0" layoutX="34.0" layoutY="12.0" max="255.0" showTickLabels="true" showTickMarks="true" />
+                                <Label layoutX="9.0" layoutY="11.0" text="G" />
+                            </children>
+                        </Pane>
+                        <Pane layoutY="80.0" prefHeight="40.0" prefWidth="200.0">
+                            <children>
+                                <Slider fx:id="sliderAul" blockIncrement="5.0" layoutX="34.0" layoutY="12.0" max="255.0" showTickLabels="true" showTickMarks="true" />
+                                <Label layoutX="11.0" layoutY="11.0" text="B" />
+                            </children>
+                        </Pane>
+                        <Pane layoutY="120.0" prefHeight="0.0" prefWidth="200.0" />
+                        <Pane layoutY="120.0" prefHeight="57.0" prefWidth="248.0">
+                            <children>
+                                <Label fx:id="labelRojo" layoutX="14.0" layoutY="20.0" prefHeight="17.0" prefWidth="35.0" text="Red:" />
+                                <Label fx:id="labelVerde" layoutX="83.0" layoutY="20.0" prefHeight="17.0" prefWidth="35.0" text="Green:" />
+                                <Label fx:id="labelAzul" layoutX="165.0" layoutY="20.0" prefHeight="17.0" prefWidth="35.0" text="Blue:" />
+                        <TextField fx:id="tfRed" layoutX="40.0" layoutY="16.0" prefHeight="25.0" prefWidth="35.0" />
+                        <TextField fx:id="tfGreen" layoutX="118.0" layoutY="16.0" prefHeight="25.0" prefWidth="35.0" />
+                        <TextField fx:id="tfBlue" layoutX="191.0" layoutY="16.0" prefHeight="25.0" prefWidth="35.0" />
+                            </children>
+                        </Pane>
+                    </children>
+                </Pane>
+                <Pane layoutX="48.0" layoutY="33.0" prefHeight="186.0" prefWidth="200.0">
+                    <children>
+                        <ListView fx:id="listView" prefHeight="186.0" prefWidth="200.0" />
+                    </children>
+                </Pane>
+                <Pane layoutX="65.0" layoutY="387.0" prefHeight="40.0" prefWidth="166.0">
+                    <children>
+                        <Button fx:id="bEliminar" layoutX="14.0" layoutY="8.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="58.0" text="Eliminar" />
+                        <Button fx:id="bAnadir" layoutX="93.0" layoutY="8.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="58.0" text="Añadir" />
+                    </children>
+                </Pane>
+            </children></AnchorPane>
+    </items>
+</SplitPane>
+>>>>>>> vista
