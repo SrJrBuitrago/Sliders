@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"es.ideas.sliders","l":"es.ideas.sliders"},{"m":"es.ideas.sliders","l":"es.ideas.sliders.controller"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"es.ideas.sliders","l":"es.ideas.sliders"},{"m":"es.ideas.sliders","l":"es.ideas.sliders.controller"},{"m":"es.ideas.sliders","l":"es.ideas.sliders.modelo"}];updateSearchResults();

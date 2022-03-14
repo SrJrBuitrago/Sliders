@@ -31,20 +31,21 @@ es.ideas.sliders='C:/Users/joser/Desktop/Sliders-1/src/main/java'
 'Sliders 1.0-SNAPSHOT API'
 es.ideas.sliders
 es.ideas.sliders.controller
+es.ideas.sliders.modelo
 'C:/Users/joser/Desktop/Sliders-1/src/main/java/module-info.java'
-C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\allclasses-index.html = 1647217441816
-C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\allpackages-index.html = 1647217441818
-C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\element-list = 1647217441740
-C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\help-doc.html = 1647217441840
-C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\index-all.html = 1647217441834
-C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\index.html = 1647217441836
-C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\jquery-ui.overrides.css = 1647217441876
-C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\member-search-index.js = 1647217441823
-C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\module-search-index.js = 1647217441820
-C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\overview-tree.html = 1647217441804
-C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\package-search-index.js = 1647217441821
-C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\script.js = 1647217441844
-C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\search.js = 1647217441847
-C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\stylesheet.css = 1647217441842
-C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\tag-search-index.js = 1647217441824
-C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\type-search-index.js = 1647217441822
+C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\allclasses-index.html = 1647217667000
+C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\allpackages-index.html = 1647217667003
+C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\element-list = 1647217666900
+C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\help-doc.html = 1647217667026
+C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\index-all.html = 1647217667020
+C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\index.html = 1647217667022
+C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\jquery-ui.overrides.css = 1647217667057
+C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\member-search-index.js = 1647217667007
+C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\module-search-index.js = 1647217667004
+C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\overview-tree.html = 1647217666984
+C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\package-search-index.js = 1647217667005
+C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\script.js = 1647217667029
+C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\search.js = 1647217667032
+C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\stylesheet.css = 1647217667029
+C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\tag-search-index.js = 1647217667009
+C:\Users\joser\Desktop\Sliders-1\target\site\apidocs\type-search-index.js = 1647217667006
