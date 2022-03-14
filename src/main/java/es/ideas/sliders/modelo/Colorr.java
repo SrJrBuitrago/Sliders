@@ -1,5 +1,16 @@
 package es.ideas.sliders.modelo;
 
+/**
+ * Modelo de la aplicación Sliders
+ *
+ * @author SrBlxde (José Ramón)
+ * @author LzByte (Lázaro)
+ * @see <a href="https://github.com/SrJrBuitrago">Cuenta de Github de José
+ * Ramón</a>
+ * @see <a href="https://github.com/LzByte">Cuenta de Github de Lázaro</a>
+ * @see <a href="https://github.com/SrJrBuitrago/Temporizador">Repositorio 
+ * Temporizador</a>
+ */
 public class Colorr {
     private int red;
     private int green;

@@ -1,3 +1,4 @@
+
 package es.ideas.sliders.controller;
 
 import es.ideas.sliders.modelo.Colorr;
@@ -13,7 +14,23 @@ import javafx.scene.text.Text;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+/**
+ * Controlador de la aplicación Sliders
+ *
+ * @author SrBlxde (José Ramón)
+ * @author LzByte (Lázaro)
+ * @see <a href="https://github.com/SrJrBuitrago">Cuenta de Github de José
+ * Ramón</a>
+ * @see <a href="https://github.com/LzByte">Cuenta de Github de Lázaro</a>
+ * @see <a href="https://github.com/SrJrBuitrago/Temporizador">Repositorio 
+ * Temporizador</a>
+ */
+
 public class Controller implements Initializable {
+    /**
+     * Componentes FXML y observable list de la clase Colorr
+     */
+    
     private ObservableList<Colorr> listaColores;
     @FXML
     private Button bAnadir;
@@ -53,7 +70,19 @@ public class Controller implements Initializable {
 
     @FXML
     private Text tfRed;
-
+    
+    /**
+     * Método que recibe objeto url y resourceBundle. Inicializo listacolores y
+     * a listview le agrego los items de listacolores. Bindeo la propiedad del
+     * botón bEliminar cuando no haya un item property de listview seleccionado.
+     * Mediante la propiedad de listview cuando se selecciona un item, se
+     * settean sus valores al componente que pintamos. Mediante la propiedad
+     * de los sliders cuando éstos tienen un nuevo valor se aplican sobre el
+     * componente mediante su método setfill, además setteamos el valor en un
+     * text el valor actual de cada slider.
+     * @param url
+     * @param resourceBundle 
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
     listaColores = FXCollections.observableArrayList();
@@ -71,7 +100,6 @@ public class Controller implements Initializable {
                  sliderAul.setValue(newValue.getBlue());
              }
             });
-            
         sliderVerde.valueProperty().addListener((obs, oldValue, newValue) -> {
 
             objeto.setFill(
@@ -100,12 +128,24 @@ public class Controller implements Initializable {
             tfBlue.setText("" + azul);
         });
     }
+    /**
+     * Se añade el objeto color a la lista que se muestra en el listview, se 
+     * ejecuta mediante la acción del botón añadir.
+     * @param event 
+     */
     @FXML
     private void agregar(ActionEvent event){
         Colorr color = new Colorr((int)sliderRojo.getValue(),
                 (int) sliderVerde.getValue(), (int) sliderAul.getValue());
         listaColores.add(color);
     }
+    
+    /**
+     * Se elimina el objeto de la lista colores cuando es seleccionado por el
+     * usuario en la listview y se presiona el botón eliminar. Se ejecuta
+     * mediante la acción del botón añadir.
+     * @param event 
+     */
     @FXML
     private void eliminar(ActionEvent event){
         listaColores.remove(listView.getSelectionModel().getSelectedItem());
@@ -113,4 +153,3 @@ public class Controller implements Initializable {
     }
 
 }
-
